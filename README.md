@@ -68,6 +68,18 @@ coming soon ...
 [hocho/stopwords.py](https://github.com/gtaiyou24/hocho/blob/main/src/hocho/stopwords.py)
 
 ## Development
+### How to develop
+```shell
+git pull origin main
+
+git checkout -b feature/xxxx
+
+git add .
+git commit -m "xxx"
+
+git push origin feature/xxx
+```
+
 ### Run test
 ```shell
 pytest -v tests
