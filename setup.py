@@ -11,7 +11,7 @@ def _requires_from_file(filename):
 
 setup(
     name='ho-cho',
-    version='0.0.1',
+    version='0.0.2',
     author='taiyo tamura',
     author_email='gtaiyou24@gmail.com',
     description='ho-cho is japanese language processing package.',
