@@ -1,5 +1,5 @@
 beautifulsoup4==4.11.1
-gensim==4.2.0
-mecab-python3==1.0.5
-nltk==3.7
+gensim==4.3.0
+mecab==0.996.3
+nltk==3.8
 pytest==7.1.3
