@@ -12,7 +12,7 @@ git clone --depth 1 https://github.com/neologd/mecab-ipadic-neologd.git \
     && bin/install-mecab-ipadic-neologd -n -a -y
     && cd ..
 
-pip install hocho
+pip install ho-cho
 ```
 </details>
 
@@ -28,7 +28,7 @@ git clone --depth 1 https://github.com/neologd/mecab-ipadic-neologd.git \
     && bin/install-mecab-ipadic-neologd -n -a -y
     && cd ..
 
-pip install hocho
+pip install ho-cho
 ```
 </details>
 
@@ -68,7 +68,8 @@ coming soon ...
 [hocho/stopwords.py](https://github.com/gtaiyou24/hocho/blob/main/src/hocho/stopwords.py)
 
 ## Development
-### How to develop
+<details><summary>How to develop</summary>
+
 ```shell
 git pull origin main
 
@@ -80,17 +81,26 @@ git commit -m "xxx"
 git push origin feature/xxx
 ```
 
-### Run test
+</details>
+
+<details><summary>Run test</summary>
+
 ```shell
 pytest -v tests
 ```
 
-### Set up
+</details>
+
+<details><summary>Set up</summary>
+
 ```shell
 pip install -e .
 ```
 
-### Publish to TestPyPI
+</details>
+
+<details><summary>Publish to TestPyPI</summary>
+
 ```shell
 # Install dependencies
 pip install setuptools wheel twine
@@ -102,7 +112,10 @@ python setup.py sdist bdist_wheel
 twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 ```
 
-### Publish to PyPI
+</details>
+
+<details><summary>Publish to PyPI</summary>
+
 ```shell
 # Install dependencies
 pip install setuptools wheel twine
@@ -113,3 +126,5 @@ python setup.py sdist bdist_wheel
 # Publish to PyPI
 twine upload dist/*
 ```
+
+</details>
